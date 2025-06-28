@@ -20,9 +20,9 @@ public class Main {
         int month = 6;
         int year = 2025;
 
-        for (Employee emp : employees) {
-            Paycheck paycheck = emp.calcCompensation(month, year);
-            emp.print();
+        for (Employee employee : employees) {
+            Paycheck paycheck = employee.calcCompensation(month, year);
+            employee.print();
             paycheck.print();
             System.out.println("Net Pay: " + paycheck.getNetPay());
             System.out.println();
