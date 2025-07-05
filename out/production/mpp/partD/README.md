@@ -1,1 +1,0 @@
-![Sequence diagram](lab4partD.png)
