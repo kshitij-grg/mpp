@@ -1,0 +1,6 @@
+- If two `Employee` objects have the same name, the return value of `compare` is 0.
+- It tells us that theses `Employee` objects should be equal but with the given code, it is not always true. Because the `equals()` method in `Employee` is comparing name and salary while NameComparator is comparing only the name.
+- This is the Example where the objects have the same name but they are not considered equal.
+  - `Employee joe1 = new Employee("Joe", 150000);`
+  - `Employee joe2 = new Employee("Joe", 100000);`
+- I have rewritten the `compare` method in `EmployeeNameComparator` class.
