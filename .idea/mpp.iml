@@ -10,8 +10,10 @@
       <sourceFolder url="file://$MODULE_DIR$/lab9" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lab10" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lab11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab13" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
